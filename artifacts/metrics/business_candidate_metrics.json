@@ -1,0 +1,12 @@
+{
+  "threshold": 0.6,
+  "max_candidates": 300,
+  "evaluated_queries": 300,
+  "total_candidates_evaluated": 90000,
+  "passed_candidates": 24045,
+  "critical_reject_candidates": 48858,
+  "business_pass_rate_on_candidates": 0.26716666666666666,
+  "critical_reject_rate_on_candidates": 0.5428666666666667,
+  "average_candidate_score": 0.6126466821402122,
+  "top1_pass_rate": 0.8933333333333333
+}

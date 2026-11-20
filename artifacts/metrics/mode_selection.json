@@ -1,0 +1,6 @@
+{
+  "USE_TRUE_ANALOGS_VALIDATION": false,
+  "WEAK_BUSINESS_MODE": true,
+  "selected_mode": "B_business_heuristics",
+  "reason": "Analogs заполнен плохо или шумный, используется Вариант B на согласованных бизнес-характеристиках"
+}

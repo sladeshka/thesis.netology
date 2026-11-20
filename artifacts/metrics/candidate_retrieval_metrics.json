@@ -1,0 +1,10 @@
+{
+  "max_candidates": 300.0,
+  "total_queries": 1168.0,
+  "queries_with_candidate_hit": 1151.0,
+  "candidate_recall": 0.985445205479452,
+  "total_true_pairs": 16407.0,
+  "covered_true_pairs": 7433.0,
+  "true_analog_pair_coverage": 0.453038337295057,
+  "average_candidate_count": 300.0
+}

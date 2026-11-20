@@ -1,0 +1,18 @@
+{
+  "profiles_rows": 8591,
+  "profiles_unique_ids": 8591,
+  "profiles_ids_with_analogs": 1583,
+  "core_rows": 7339,
+  "core_unique_ids": 7339,
+  "core_ids_with_analogs": 1168,
+  "ground_truth_queries": 1168,
+  "core_queries_with_analogs_but_not_in_ground_truth": 0,
+  "core_analog_targets_count": 437,
+  "core_analog_targets_present_in_core": 435,
+  "core_analog_targets_missing_in_core": 2,
+  "missing_target_sample": [
+    "01M758XFVCSBV06Y7DK7M9194D",
+    "01M7SQNA8HCR77GVWM2J6PMX39"
+  ],
+  "ground_truth_lost_queries_sample": []
+}

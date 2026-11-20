@@ -1,0 +1,12 @@
+{
+  "total_rows": 8591,
+  "empty_id_rows": 0,
+  "unique_non_empty_ids": 8591,
+  "rows_with_analogs": 1583,
+  "unique_ids_with_any_analog": 1583,
+  "duplicated_id_count": 0,
+  "conflict_duplicated_id_count": 0,
+  "conflict_duplicated_id_sample": [],
+  "raw_analog_references_count": 20168,
+  "unique_raw_analog_targets": 439
+}

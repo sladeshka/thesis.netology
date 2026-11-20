@@ -1,0 +1,296 @@
+[
+  {
+    "id": "01KTTYDTVC791NAF0MPJD5TFM2",
+    "name": "Инверторная сплит система Mitsubishi SRK20ZTL-W (Белый)",
+    "score": 0.6388888888888888,
+    "hard_fail": false,
+    "text_sim": 1.0,
+    "area_m2": 20.0,
+    "cooling_power_kw": 2.0,
+    "heating_power_kw": 2.7,
+    "noise_indoor_db": 19.0,
+    "min_operating_temp_c": -20.0,
+    "is_inverter": true,
+    "has_wifi_module": true,
+    "color_inner_body": null,
+    "refrigerant": "R32",
+    "energy_class": null,
+    "component_details": {
+      "is_inverter": {
+        "component_score": 1.0,
+        "weight": 0.1111111111111111,
+        "hard_fail": false,
+        "skipped": false,
+        "missing": false
+      },
+      "area_m2": {
+        "component_score": 1.0,
+        "weight": 0.1111111111111111,
+        "hard_fail": false,
+        "skipped": false,
+        "missing": false
+      },
+      "cooling_power_kw": {
+        "component_score": 1.0,
+        "weight": 0.1111111111111111,
+        "hard_fail": false,
+        "skipped": false,
+        "missing": false
+      },
+      "heating_power_kw": {
+        "component_score": 1.0,
+        "weight": 0.1111111111111111,
+        "hard_fail": false,
+        "skipped": false,
+        "missing": false
+      },
+      "noise_indoor_db": {
+        "component_score": 1.0,
+        "weight": 0.1111111111111111,
+        "hard_fail": false,
+        "skipped": false,
+        "missing": false
+      },
+      "min_operating_temp_c": {
+        "component_score": 0.5,
+        "weight": 0.1111111111111111,
+        "hard_fail": false,
+        "skipped": false,
+        "missing": true
+      },
+      "color_inner_body": {
+        "component_score": 0.5,
+        "weight": 0.1111111111111111,
+        "hard_fail": false,
+        "skipped": false,
+        "missing": true
+      },
+      "has_wifi_module": {
+        "component_score": 0.5,
+        "weight": 0.027777777777777776,
+        "hard_fail": false,
+        "skipped": false,
+        "missing": true
+      },
+      "has_wifi_app_control": {
+        "component_score": 0.5,
+        "weight": 0.027777777777777776,
+        "hard_fail": false,
+        "skipped": false,
+        "missing": true
+      },
+      "refrigerant": {
+        "component_score": 1.0,
+        "weight": 0.08333333333333333,
+        "hard_fail": false,
+        "skipped": false,
+        "missing": false
+      },
+      "energy_class": {
+        "component_score": 0.5,
+        "weight": 0.08333333333333333,
+        "hard_fail": false,
+        "skipped": false,
+        "missing": true
+      }
+    },
+    "hard_fail_reasons": [],
+    "raw_score_0_100": null
+  },
+  {
+    "id": "01KTTYDTSM36WC6501V0RD7E8D",
+    "name": "Инверторная сплит система Mitsubishi SRK20ZS-W Premium (Белый)",
+    "score": 0.6388888888888888,
+    "hard_fail": false,
+    "text_sim": 0.4881473481655121,
+    "area_m2": 20.0,
+    "cooling_power_kw": 2.0,
+    "heating_power_kw": 2.7,
+    "noise_indoor_db": 19.0,
+    "min_operating_temp_c": -15.0,
+    "is_inverter": true,
+    "has_wifi_module": null,
+    "color_inner_body": null,
+    "refrigerant": "R32",
+    "energy_class": null,
+    "component_details": {
+      "is_inverter": {
+        "component_score": 1.0,
+        "weight": 0.1111111111111111,
+        "hard_fail": false,
+        "skipped": false,
+        "missing": false
+      },
+      "area_m2": {
+        "component_score": 1.0,
+        "weight": 0.1111111111111111,
+        "hard_fail": false,
+        "skipped": false,
+        "missing": false
+      },
+      "cooling_power_kw": {
+        "component_score": 1.0,
+        "weight": 0.1111111111111111,
+        "hard_fail": false,
+        "skipped": false,
+        "missing": false
+      },
+      "heating_power_kw": {
+        "component_score": 1.0,
+        "weight": 0.1111111111111111,
+        "hard_fail": false,
+        "skipped": false,
+        "missing": false
+      },
+      "noise_indoor_db": {
+        "component_score": 1.0,
+        "weight": 0.1111111111111111,
+        "hard_fail": false,
+        "skipped": false,
+        "missing": false
+      },
+      "min_operating_temp_c": {
+        "component_score": 0.5,
+        "weight": 0.1111111111111111,
+        "hard_fail": false,
+        "skipped": false,
+        "missing": true
+      },
+      "color_inner_body": {
+        "component_score": 0.5,
+        "weight": 0.1111111111111111,
+        "hard_fail": false,
+        "skipped": false,
+        "missing": true
+      },
+      "has_wifi_module": {
+        "component_score": 0.5,
+        "weight": 0.027777777777777776,
+        "hard_fail": false,
+        "skipped": false,
+        "missing": true
+      },
+      "has_wifi_app_control": {
+        "component_score": 0.5,
+        "weight": 0.027777777777777776,
+        "hard_fail": false,
+        "skipped": false,
+        "missing": true
+      },
+      "refrigerant": {
+        "component_score": 1.0,
+        "weight": 0.08333333333333333,
+        "hard_fail": false,
+        "skipped": false,
+        "missing": false
+      },
+      "energy_class": {
+        "component_score": 0.5,
+        "weight": 0.08333333333333333,
+        "hard_fail": false,
+        "skipped": false,
+        "missing": true
+      }
+    },
+    "hard_fail_reasons": [],
+    "raw_score_0_100": null
+  },
+  {
+    "id": "01KTTYDTR79HYJ27M6KGGAK6Y7",
+    "name": "Инверторная сплит система Mitsubishi SRK20ZSX-W DIAMOND (Белый)",
+    "score": 0.6388888888888888,
+    "hard_fail": false,
+    "text_sim": 0.48798733949661255,
+    "area_m2": 20.0,
+    "cooling_power_kw": 2.0,
+    "heating_power_kw": 2.7,
+    "noise_indoor_db": 19.0,
+    "min_operating_temp_c": -20.0,
+    "is_inverter": true,
+    "has_wifi_module": null,
+    "color_inner_body": null,
+    "refrigerant": "R32",
+    "energy_class": null,
+    "component_details": {
+      "is_inverter": {
+        "component_score": 1.0,
+        "weight": 0.1111111111111111,
+        "hard_fail": false,
+        "skipped": false,
+        "missing": false
+      },
+      "area_m2": {
+        "component_score": 1.0,
+        "weight": 0.1111111111111111,
+        "hard_fail": false,
+        "skipped": false,
+        "missing": false
+      },
+      "cooling_power_kw": {
+        "component_score": 1.0,
+        "weight": 0.1111111111111111,
+        "hard_fail": false,
+        "skipped": false,
+        "missing": false
+      },
+      "heating_power_kw": {
+        "component_score": 1.0,
+        "weight": 0.1111111111111111,
+        "hard_fail": false,
+        "skipped": false,
+        "missing": false
+      },
+      "noise_indoor_db": {
+        "component_score": 1.0,
+        "weight": 0.1111111111111111,
+        "hard_fail": false,
+        "skipped": false,
+        "missing": false
+      },
+      "min_operating_temp_c": {
+        "component_score": 0.5,
+        "weight": 0.1111111111111111,
+        "hard_fail": false,
+        "skipped": false,
+        "missing": true
+      },
+      "color_inner_body": {
+        "component_score": 0.5,
+        "weight": 0.1111111111111111,
+        "hard_fail": false,
+        "skipped": false,
+        "missing": true
+      },
+      "has_wifi_module": {
+        "component_score": 0.5,
+        "weight": 0.027777777777777776,
+        "hard_fail": false,
+        "skipped": false,
+        "missing": true
+      },
+      "has_wifi_app_control": {
+        "component_score": 0.5,
+        "weight": 0.027777777777777776,
+        "hard_fail": false,
+        "skipped": false,
+        "missing": true
+      },
+      "refrigerant": {
+        "component_score": 1.0,
+        "weight": 0.08333333333333333,
+        "hard_fail": false,
+        "skipped": false,
+        "missing": false
+      },
+      "energy_class": {
+        "component_score": 0.5,
+        "weight": 0.08333333333333333,
+        "hard_fail": false,
+        "skipped": false,
+        "missing": true
+      }
+    },
+    "hard_fail_reasons": [],
+    "raw_score_0_100": null
+  }
+]

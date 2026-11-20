@@ -1,0 +1,31 @@
+{
+  "USE_TRUE_ANALOGS_VALIDATION": false,
+  "USE_WEAK_ANALOGS_SOURCE": true,
+  "selected_mode": "B_business_heuristics_with_weak_evaluable_source",
+  "reason": "Полный Analogs нельзя использовать как чистый эталон из-за низкой проверяемости, но среди технических пар его качество высокое. Можно использовать проверяемую часть как слабую разметку.",
+  "thresholds": {
+    "MIN_EVALUABLE_RATE_FOR_VALIDATION": 0.6,
+    "MIN_PASS_RATE_EVALUABLE_FOR_VALIDATION": 0.55,
+    "WEAK_EVALUABLE_RATE": 0.45,
+    "WEAK_PASS_RATE_EVALUABLE": 0.9
+  },
+  "source_quality_metrics": {
+    "threshold": 0.6,
+    "total_pairs": 16407,
+    "evaluable_pairs": 8245,
+    "uncheckable_pairs": 8162,
+    "evaluable_rate": 0.5025294081794356,
+    "uncheckable_rate": 0.4974705918205644,
+    "passed_all": 8175,
+    "pass_rate_all": 0.4982629365514719,
+    "passed_evaluable": 8175,
+    "pass_rate_evaluable": 0.9915100060642814,
+    "failed_score_all": 70,
+    "failed_hard_fail_all": 0,
+    "failed_no_valid_feature_data_all": 8162,
+    "failed_score_evaluable": 70,
+    "failed_hard_fail_evaluable": 0,
+    "mean_score_evaluable": 0.7978541901803623,
+    "mean_confidence_evaluable": 0.8033521999865237
+  }
+}

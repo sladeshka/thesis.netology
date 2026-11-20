@@ -1,0 +1,397 @@
+{
+  "version": "3.0.0",
+  "project_name": "ventilation_analog_selection",
+  "mode_selection": {
+    "USE_TRUE_ANALOGS_VALIDATION": false,
+    "USE_WEAK_ANALOGS_SOURCE": true,
+    "selected_mode": "B_business_heuristics_with_weak_evaluable_source",
+    "reason": "Полный Analogs нельзя использовать как чистый эталон из-за низкой проверяемости, но среди технических пар его качество высокое. Можно использовать проверяемую часть как слабую разметку.",
+    "thresholds": {
+      "MIN_EVALUABLE_RATE_FOR_VALIDATION": 0.6,
+      "MIN_PASS_RATE_EVALUABLE_FOR_VALIDATION": 0.55,
+      "WEAK_EVALUABLE_RATE": 0.45,
+      "WEAK_PASS_RATE_EVALUABLE": 0.9
+    },
+    "source_quality_metrics": {
+      "threshold": 0.6,
+      "total_pairs": 16407,
+      "evaluable_pairs": 8245,
+      "uncheckable_pairs": 8162,
+      "evaluable_rate": 0.5025294081794356,
+      "uncheckable_rate": 0.4974705918205644,
+      "passed_all": 8175,
+      "pass_rate_all": 0.4982629365514719,
+      "passed_evaluable": 8175,
+      "pass_rate_evaluable": 0.9915100060642814,
+      "failed_score_all": 70,
+      "failed_hard_fail_all": 0,
+      "failed_no_valid_feature_data_all": 8162,
+      "failed_score_evaluable": 70,
+      "failed_hard_fail_evaluable": 0,
+      "mean_score_evaluable": 0.7978541901803623,
+      "mean_confidence_evaluable": 0.8033521999865237
+    }
+  },
+  "analogs_validation": {
+    "total_checked": 16407,
+    "passed": 8175,
+    "failed": 8232,
+    "pass_rate": 0.4982629365514719
+  },
+  "business_parameters": {
+    "business_weights": {
+      "is_inverter": 0.1111111111111111,
+      "area_m2": 0.1111111111111111,
+      "cooling_power_kw": 0.1111111111111111,
+      "heating_power_kw": 0.1111111111111111,
+      "noise_indoor_db": 0.1111111111111111,
+      "min_operating_temp_c": 0.1111111111111111,
+      "color_inner_body": 0.1111111111111111,
+      "has_wifi_module": 0.027777777777777776,
+      "has_wifi_app_control": 0.027777777777777776,
+      "refrigerant": 0.08333333333333333,
+      "energy_class": 0.08333333333333333
+    },
+    "business_characteristics": [
+      {
+        "Name": "Инверторная технология",
+        "Field": "is_inverter",
+        "Kind": "bool",
+        "Importance": 3,
+        "TolerancePercent": null,
+        "Unit": "",
+        "ImportanceLabel": "Critical"
+      },
+      {
+        "Name": "Эффективен для помещ. площадью до",
+        "Field": "area_m2",
+        "Kind": "numeric_relative",
+        "Importance": 3,
+        "TolerancePercent": 15.0,
+        "Unit": "м²",
+        "ImportanceLabel": "Critical"
+      },
+      {
+        "Name": "Номинальная производительность охлаждения",
+        "Field": "cooling_power_kw",
+        "Kind": "numeric_relative",
+        "Importance": 3,
+        "TolerancePercent": 15.0,
+        "Unit": "кВт",
+        "ImportanceLabel": "Critical"
+      },
+      {
+        "Name": "Номинальная производительность обогрева",
+        "Field": "heating_power_kw",
+        "Kind": "numeric_relative",
+        "Importance": 3,
+        "TolerancePercent": 15.0,
+        "Unit": "кВт",
+        "ImportanceLabel": "Critical"
+      },
+      {
+        "Name": "Уровень шума внутр. блока",
+        "Field": "noise_indoor_db",
+        "Kind": "numeric_relative",
+        "Importance": 3,
+        "TolerancePercent": 40.0,
+        "Unit": "дБ(А)",
+        "ImportanceLabel": "Critical"
+      },
+      {
+        "Name": "Мин. рабочая температура воздуха для внешнего блока",
+        "Field": "min_operating_temp_c",
+        "Kind": "temp_relative",
+        "Importance": 3,
+        "TolerancePercent": 30.0,
+        "Unit": "°C",
+        "ImportanceLabel": "Critical"
+      },
+      {
+        "Name": "Цвет корпуса внутр. блока",
+        "Field": "color_inner_body",
+        "Kind": "category_exact",
+        "Importance": 3,
+        "TolerancePercent": null,
+        "Unit": "",
+        "ImportanceLabel": "Critical"
+      },
+      {
+        "Name": "Wi-Fi модуль",
+        "Field": "has_wifi_module",
+        "Kind": "bool",
+        "Importance": 1,
+        "TolerancePercent": null,
+        "Unit": "",
+        "ImportanceLabel": "Matter"
+      },
+      {
+        "Name": "Управление c мобильного приложения по Wi-Fi",
+        "Field": "has_wifi_app_control",
+        "Kind": "bool",
+        "Importance": 1,
+        "TolerancePercent": null,
+        "Unit": "",
+        "ImportanceLabel": "Matter"
+      },
+      {
+        "Name": "Хладагент",
+        "Field": "refrigerant",
+        "Kind": "category_exact",
+        "Importance": 2,
+        "TolerancePercent": null,
+        "Unit": "",
+        "ImportanceLabel": "Important"
+      },
+      {
+        "Name": "Класс энергоэффективности",
+        "Field": "energy_class",
+        "Kind": "energy_class",
+        "Importance": 2,
+        "TolerancePercent": null,
+        "Unit": "",
+        "ImportanceLabel": "Important"
+      }
+    ],
+    "units": {
+      "area_m2": "м²",
+      "cooling_power_kw": "кВт",
+      "heating_power_kw": "кВт",
+      "noise_indoor_db": "дБ(А)",
+      "min_operating_temp_c": "°C"
+    }
+  },
+  "valid_coverage": {
+    "Номинальная производительность охлаждения": 0.5849570786210655,
+    "Уровень шума внутр. блока": 0.5849570786210655,
+    "Мин. рабочая температура воздуха для внешнего блока": 0.5842757868919471,
+    "Номинальная производительность обогрева": 0.5838670118544761,
+    "Эффективен для помещ. площадью до": 0.5799155198255893,
+    "Цвет корпуса внутр. блока": 0.353590407412454,
+    "Инверторная технология": 0.3409183812508516,
+    "Хладагент": 0.5395830494617795,
+    "Класс энергоэффективности": 0.34650497342962255,
+    "Управление c мобильного приложения по Wi-Fi": 0.2763319253304265,
+    "Wi-Fi модуль": 0.09769723395557978
+  },
+  "retrieval_metrics": {
+    "n_queries": 1168,
+    "mrr": 0.2676814932594042,
+    "precision@1": 0.14126712328767124,
+    "recall@1": 0.028146504278138893,
+    "hitrate@1": 0.14126712328767124,
+    "precision@3": 0.13356164383561642,
+    "recall@3": 0.07163404030180345,
+    "hitrate@3": 0.2988013698630137,
+    "precision@5": 0.1517123287671233,
+    "recall@5": 0.1262747870629354,
+    "hitrate@5": 0.4486301369863014,
+    "precision@10": 0.18955479452054794,
+    "recall@10": 0.2794638997130356,
+    "hitrate@10": 0.6626712328767124
+  },
+  "candidate_retrieval_metrics": {
+    "max_candidates": 300.0,
+    "total_queries": 1168.0,
+    "queries_with_candidate_hit": 1151.0,
+    "candidate_recall": 0.985445205479452,
+    "total_true_pairs": 16407.0,
+    "covered_true_pairs": 7433.0,
+    "true_analog_pair_coverage": 0.453038337295057,
+    "average_candidate_count": 300.0
+  },
+  "business_candidate_metrics": {
+    "threshold": 0.6,
+    "max_candidates": 300,
+    "evaluated_queries": 300,
+    "total_candidates_evaluated": 90000,
+    "passed_candidates": 24045,
+    "critical_reject_candidates": 48858,
+    "business_pass_rate_on_candidates": 0.26716666666666666,
+    "critical_reject_rate_on_candidates": 0.5428666666666667,
+    "average_candidate_score": 0.6126466821402122,
+    "top1_pass_rate": 0.8933333333333333
+  },
+  "sensitivity_metrics": [
+    {
+      "field": "area_m2",
+      "delta_percent": 0.05,
+      "pairs": 181,
+      "mean_baseline_score": 0.8011649149871943,
+      "mean_perturbed_score": 0.8011491833022244,
+      "mean_score_drop": 1.5731684969863624e-05,
+      "hard_fail_rate": 0.0
+    },
+    {
+      "field": "area_m2",
+      "delta_percent": 0.1,
+      "pairs": 181,
+      "mean_baseline_score": 0.8011649149871943,
+      "mean_perturbed_score": 0.7999846848638041,
+      "mean_score_drop": 0.00118023012339,
+      "hard_fail_rate": 0.0
+    },
+    {
+      "field": "area_m2",
+      "delta_percent": 0.2,
+      "pairs": 181,
+      "mean_baseline_score": 0.8011649149871943,
+      "mean_perturbed_score": 0.7729544331257133,
+      "mean_score_drop": 0.0282104818614809,
+      "hard_fail_rate": 0.0
+    },
+    {
+      "field": "area_m2",
+      "delta_percent": 0.3,
+      "pairs": 181,
+      "mean_baseline_score": 0.8011649149871943,
+      "mean_perturbed_score": 0.7215725689157712,
+      "mean_score_drop": 0.0795923460714231,
+      "hard_fail_rate": 0.0
+    },
+    {
+      "field": "cooling_power_kw",
+      "delta_percent": 0.05,
+      "pairs": 184,
+      "mean_baseline_score": 0.7967075160109537,
+      "mean_perturbed_score": 0.7966009019766894,
+      "mean_score_drop": 0.0001066140342643,
+      "hard_fail_rate": 0.0
+    },
+    {
+      "field": "cooling_power_kw",
+      "delta_percent": 0.1,
+      "pairs": 184,
+      "mean_baseline_score": 0.7967075160109537,
+      "mean_perturbed_score": 0.7953350222565972,
+      "mean_score_drop": 0.0013724937543564,
+      "hard_fail_rate": 0.0
+    },
+    {
+      "field": "cooling_power_kw",
+      "delta_percent": 0.2,
+      "pairs": 184,
+      "mean_baseline_score": 0.7967075160109537,
+      "mean_perturbed_score": 0.7668573501335819,
+      "mean_score_drop": 0.0298501658773717,
+      "hard_fail_rate": 0.0
+    },
+    {
+      "field": "cooling_power_kw",
+      "delta_percent": 0.3,
+      "pairs": 184,
+      "mean_baseline_score": 0.7967075160109537,
+      "mean_perturbed_score": 0.7144886304939071,
+      "mean_score_drop": 0.0822188855170466,
+      "hard_fail_rate": 0.0
+    },
+    {
+      "field": "heating_power_kw",
+      "delta_percent": 0.05,
+      "pairs": 184,
+      "mean_baseline_score": 0.7967075160109537,
+      "mean_perturbed_score": 0.7966127108232913,
+      "mean_score_drop": 9.480518766239624e-05,
+      "hard_fail_rate": 0.0
+    },
+    {
+      "field": "heating_power_kw",
+      "delta_percent": 0.1,
+      "pairs": 184,
+      "mean_baseline_score": 0.7967075160109537,
+      "mean_perturbed_score": 0.7950354330675653,
+      "mean_score_drop": 0.0016720829433883,
+      "hard_fail_rate": 0.0
+    },
+    {
+      "field": "heating_power_kw",
+      "delta_percent": 0.2,
+      "pairs": 184,
+      "mean_baseline_score": 0.7967075160109537,
+      "mean_perturbed_score": 0.7660432612646538,
+      "mean_score_drop": 0.0306642547462999,
+      "hard_fail_rate": 0.0
+    },
+    {
+      "field": "heating_power_kw",
+      "delta_percent": 0.3,
+      "pairs": 184,
+      "mean_baseline_score": 0.7967075160109537,
+      "mean_perturbed_score": 0.714582052233534,
+      "mean_score_drop": 0.0821254637774198,
+      "hard_fail_rate": 0.0
+    },
+    {
+      "field": "min_operating_temp_c",
+      "delta_percent": 0.05,
+      "pairs": 184,
+      "mean_baseline_score": 0.7967075160109537,
+      "mean_perturbed_score": 0.7961036512766542,
+      "mean_score_drop": 0.0006038647342995,
+      "hard_fail_rate": 0.0054347826086956
+    },
+    {
+      "field": "min_operating_temp_c",
+      "delta_percent": 0.1,
+      "pairs": 184,
+      "mean_baseline_score": 0.7967075160109537,
+      "mean_perturbed_score": 0.7961036512766542,
+      "mean_score_drop": 0.0006038647342995,
+      "hard_fail_rate": 0.0054347826086956
+    },
+    {
+      "field": "min_operating_temp_c",
+      "delta_percent": 0.2,
+      "pairs": 184,
+      "mean_baseline_score": 0.7967075160109537,
+      "mean_perturbed_score": 0.7954997865423548,
+      "mean_score_drop": 0.001207729468599,
+      "hard_fail_rate": 0.0108695652173913
+    },
+    {
+      "field": "min_operating_temp_c",
+      "delta_percent": 0.3,
+      "pairs": 184,
+      "mean_baseline_score": 0.7967075160109537,
+      "mean_perturbed_score": 0.7954997865423548,
+      "mean_score_drop": 0.001207729468599,
+      "hard_fail_rate": 0.0108695652173913
+    },
+    {
+      "field": "noise_indoor_db",
+      "delta_percent": 0.05,
+      "pairs": 184,
+      "mean_baseline_score": 0.7967075160109537,
+      "mean_perturbed_score": 0.7966385966662782,
+      "mean_score_drop": 6.891934467549046e-05,
+      "hard_fail_rate": 0.0
+    },
+    {
+      "field": "noise_indoor_db",
+      "delta_percent": 0.1,
+      "pairs": 184,
+      "mean_baseline_score": 0.7967075160109537,
+      "mean_perturbed_score": 0.796222044865186,
+      "mean_score_drop": 0.0004854711457676,
+      "hard_fail_rate": 0.0
+    },
+    {
+      "field": "noise_indoor_db",
+      "delta_percent": 0.2,
+      "pairs": 184,
+      "mean_baseline_score": 0.7967075160109537,
+      "mean_perturbed_score": 0.7944507704679369,
+      "mean_score_drop": 0.0022567455430168,
+      "hard_fail_rate": 0.0
+    },
+    {
+      "field": "noise_indoor_db",
+      "delta_percent": 0.3,
+      "pairs": 184,
+      "mean_baseline_score": 0.7967075160109537,
+      "mean_perturbed_score": 0.7911435105128205,
+      "mean_score_drop": 0.0055640054981332,
+      "hard_fail_rate": 0.0
+    }
+  ]
+}

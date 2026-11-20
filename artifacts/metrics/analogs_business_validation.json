@@ -1,0 +1,470 @@
+{
+  "threshold": 0.6,
+  "min_confidence": 0.5,
+  "total_checked": 16407,
+  "passed": 8175,
+  "failed": 8232,
+  "failed_hard_fail": 0,
+  "failed_score": 70,
+  "failed_no_valid_feature_data": 8162,
+  "failed_low_confidence": 0,
+  "evaluable_total": 8245,
+  "evaluable_rate": 0.5025294081794356,
+  "pass_rate": 0.4982629365514719,
+  "pass_rate_evaluable": 0.9915100060642814,
+  "mean_score": 0.6496804899151025,
+  "mean_confidence": 0.4037081056188753,
+  "hard_fail_field_counts": {},
+  "failed_examples": [
+    {
+      "query_id": "01KTRZNZ8CSGEK2PTXG01H7GA3",
+      "analog_id": "01KTSCSMHJX2S8PTKT2SJS8B8G",
+      "failure_type": "score_below_threshold",
+      "score": 0.5277777777777777,
+      "confidence": 0.5277777777777777,
+      "missing_fields": [
+        "is_inverter",
+        "area_m2",
+        "color_inner_body",
+        "has_wifi_module",
+        "has_wifi_app_control",
+        "energy_class"
+      ]
+    },
+    {
+      "query_id": "01KTRZNZ8CSGEK2PTXG01H7GA3",
+      "analog_id": "01KTSCSSCN2GD1RR2N769ER7H5",
+      "failure_type": "score_below_threshold",
+      "score": 0.5277777777777777,
+      "confidence": 0.5277777777777777,
+      "missing_fields": [
+        "is_inverter",
+        "area_m2",
+        "color_inner_body",
+        "has_wifi_module",
+        "has_wifi_app_control",
+        "energy_class"
+      ]
+    },
+    {
+      "query_id": "01KTRZNZ8CSGEK2PTXG01H7GA3",
+      "analog_id": "01KTSCSKGDE9XH7MPKNQTCRBBJ",
+      "failure_type": "score_below_threshold",
+      "score": 0.5277777777777777,
+      "confidence": 0.5277777777777777,
+      "missing_fields": [
+        "is_inverter",
+        "area_m2",
+        "color_inner_body",
+        "has_wifi_module",
+        "has_wifi_app_control",
+        "energy_class"
+      ]
+    },
+    {
+      "query_id": "01KTRZQCPYEP8P1CV8ZGVBV647",
+      "analog_id": "01KTSCSH0QKMC3CV1TFFBFH5G9",
+      "failure_type": "score_below_threshold",
+      "score": 0.5277777777777777,
+      "confidence": 0.5277777777777777,
+      "missing_fields": [
+        "is_inverter",
+        "area_m2",
+        "color_inner_body",
+        "has_wifi_module",
+        "has_wifi_app_control",
+        "energy_class"
+      ]
+    },
+    {
+      "query_id": "01KTS0DHW3JFKG96Y3ECEAYNFY",
+      "analog_id": "01KTSCSMHJX2S8PTKT2SJS8B8G",
+      "failure_type": "score_below_threshold",
+      "score": 0.5277777777777777,
+      "confidence": 0.5277777777777777,
+      "missing_fields": [
+        "is_inverter",
+        "area_m2",
+        "color_inner_body",
+        "has_wifi_module",
+        "has_wifi_app_control",
+        "energy_class"
+      ]
+    },
+    {
+      "query_id": "01KTS0DHW3JFKG96Y3ECEAYNFY",
+      "analog_id": "01KTSCSSCN2GD1RR2N769ER7H5",
+      "failure_type": "score_below_threshold",
+      "score": 0.5277777777777777,
+      "confidence": 0.5277777777777777,
+      "missing_fields": [
+        "is_inverter",
+        "area_m2",
+        "color_inner_body",
+        "has_wifi_module",
+        "has_wifi_app_control",
+        "energy_class"
+      ]
+    },
+    {
+      "query_id": "01KTS0DHW3JFKG96Y3ECEAYNFY",
+      "analog_id": "01KTSCSKGDE9XH7MPKNQTCRBBJ",
+      "failure_type": "score_below_threshold",
+      "score": 0.5277777777777777,
+      "confidence": 0.5277777777777777,
+      "missing_fields": [
+        "is_inverter",
+        "area_m2",
+        "color_inner_body",
+        "has_wifi_module",
+        "has_wifi_app_control",
+        "energy_class"
+      ]
+    },
+    {
+      "query_id": "01KTS0F8W68HC7JR0JQ3ESB85S",
+      "analog_id": "01KTSCSH0QKMC3CV1TFFBFH5G9",
+      "failure_type": "score_below_threshold",
+      "score": 0.5277777777777777,
+      "confidence": 0.5277777777777777,
+      "missing_fields": [
+        "is_inverter",
+        "area_m2",
+        "color_inner_body",
+        "has_wifi_module",
+        "has_wifi_app_control",
+        "energy_class"
+      ]
+    },
+    {
+      "query_id": "01KTRVXWTRG05ABBGP8DSJ08DM",
+      "analog_id": "01KTSCSMHJX2S8PTKT2SJS8B8G",
+      "failure_type": "score_below_threshold",
+      "score": 0.5277777777777777,
+      "confidence": 0.5277777777777777,
+      "missing_fields": [
+        "is_inverter",
+        "area_m2",
+        "color_inner_body",
+        "has_wifi_module",
+        "has_wifi_app_control",
+        "energy_class"
+      ]
+    },
+    {
+      "query_id": "01KTRVXWTRG05ABBGP8DSJ08DM",
+      "analog_id": "01KTSCSSCN2GD1RR2N769ER7H5",
+      "failure_type": "score_below_threshold",
+      "score": 0.5277777777777777,
+      "confidence": 0.5277777777777777,
+      "missing_fields": [
+        "is_inverter",
+        "area_m2",
+        "color_inner_body",
+        "has_wifi_module",
+        "has_wifi_app_control",
+        "energy_class"
+      ]
+    },
+    {
+      "query_id": "01KTRVXWTRG05ABBGP8DSJ08DM",
+      "analog_id": "01KTSCSKGDE9XH7MPKNQTCRBBJ",
+      "failure_type": "score_below_threshold",
+      "score": 0.5277777777777777,
+      "confidence": 0.5277777777777777,
+      "missing_fields": [
+        "is_inverter",
+        "area_m2",
+        "color_inner_body",
+        "has_wifi_module",
+        "has_wifi_app_control",
+        "energy_class"
+      ]
+    },
+    {
+      "query_id": "01KTRWENGWAPPXCVZJD3CGGNW4",
+      "analog_id": "01KTSCSH0QKMC3CV1TFFBFH5G9",
+      "failure_type": "score_below_threshold",
+      "score": 0.5277777777777777,
+      "confidence": 0.5277777777777777,
+      "missing_fields": [
+        "is_inverter",
+        "area_m2",
+        "color_inner_body",
+        "has_wifi_module",
+        "has_wifi_app_control",
+        "energy_class"
+      ]
+    },
+    {
+      "query_id": "01KTS2QVNKVX9R2C5TRJ5F18Z9",
+      "analog_id": "01KTSCSH56MGJXZJJS2DN9WFG6",
+      "failure_type": "score_below_threshold",
+      "score": 0.5277777777777777,
+      "confidence": 0.5277777777777777,
+      "missing_fields": [
+        "is_inverter",
+        "area_m2",
+        "color_inner_body",
+        "has_wifi_module",
+        "has_wifi_app_control",
+        "energy_class"
+      ]
+    },
+    {
+      "query_id": "01KTRY8TCX79N03XKPV5X18DFA",
+      "analog_id": "01KTSCSQBRZKRZP5RCNAF3F69T",
+      "failure_type": "score_below_threshold",
+      "score": 0.5277777777777777,
+      "confidence": 0.5277777777777777,
+      "missing_fields": [
+        "is_inverter",
+        "area_m2",
+        "color_inner_body",
+        "has_wifi_module",
+        "has_wifi_app_control",
+        "energy_class"
+      ]
+    },
+    {
+      "query_id": "01KTRY8TCX79N03XKPV5X18DFA",
+      "analog_id": "01KTSCSR50JJ5F8ZTZDG3E3T4M",
+      "failure_type": "score_below_threshold",
+      "score": 0.5277777777777777,
+      "confidence": 0.5277777777777777,
+      "missing_fields": [
+        "is_inverter",
+        "area_m2",
+        "color_inner_body",
+        "has_wifi_module",
+        "has_wifi_app_control",
+        "energy_class"
+      ]
+    },
+    {
+      "query_id": "01KTRY8TCX79N03XKPV5X18DFA",
+      "analog_id": "01KTSCSFS6XTE9QG5TR3F9N9AR",
+      "failure_type": "score_below_threshold",
+      "score": 0.5277777777777777,
+      "confidence": 0.5277777777777777,
+      "missing_fields": [
+        "is_inverter",
+        "area_m2",
+        "color_inner_body",
+        "has_wifi_module",
+        "has_wifi_app_control",
+        "energy_class"
+      ]
+    },
+    {
+      "query_id": "01KTRYAXV8F8J7DSZYY6AAQBRP",
+      "analog_id": "01KTSCSQN87SE9ZP73CFX0ZTCK",
+      "failure_type": "score_below_threshold",
+      "score": 0.5277777777777777,
+      "confidence": 0.5277777777777777,
+      "missing_fields": [
+        "is_inverter",
+        "area_m2",
+        "color_inner_body",
+        "has_wifi_module",
+        "has_wifi_app_control",
+        "energy_class"
+      ]
+    },
+    {
+      "query_id": "01KTRYAXV8F8J7DSZYY6AAQBRP",
+      "analog_id": "01KTSCSKGDE9XH7MPKNQTCRBBJ",
+      "failure_type": "score_below_threshold",
+      "score": 0.5277777777777777,
+      "confidence": 0.5277777777777777,
+      "missing_fields": [
+        "is_inverter",
+        "area_m2",
+        "color_inner_body",
+        "has_wifi_module",
+        "has_wifi_app_control",
+        "energy_class"
+      ]
+    },
+    {
+      "query_id": "01KTRYAXV8F8J7DSZYY6AAQBRP",
+      "analog_id": "01KTSCSQ551ZW708JBQF66E98Z",
+      "failure_type": "score_below_threshold",
+      "score": 0.5277777777777777,
+      "confidence": 0.5277777777777777,
+      "missing_fields": [
+        "is_inverter",
+        "area_m2",
+        "color_inner_body",
+        "has_wifi_module",
+        "has_wifi_app_control",
+        "energy_class"
+      ]
+    },
+    {
+      "query_id": "01KTRYD79GV0D67DESXQWTGGQC",
+      "analog_id": "01KZ6FSYB8127GV60JTNDNAKPM",
+      "failure_type": "score_below_threshold",
+      "score": 0.5277777777777777,
+      "confidence": 0.5277777777777777,
+      "missing_fields": [
+        "is_inverter",
+        "area_m2",
+        "color_inner_body",
+        "has_wifi_module",
+        "has_wifi_app_control",
+        "energy_class"
+      ]
+    },
+    {
+      "query_id": "01KTRYD79GV0D67DESXQWTGGQC",
+      "analog_id": "01KTSCSH0QKMC3CV1TFFBFH5G9",
+      "failure_type": "score_below_threshold",
+      "score": 0.5277777777777777,
+      "confidence": 0.5277777777777777,
+      "missing_fields": [
+        "is_inverter",
+        "area_m2",
+        "color_inner_body",
+        "has_wifi_module",
+        "has_wifi_app_control",
+        "energy_class"
+      ]
+    },
+    {
+      "query_id": "01KTRYF6QQ3RC9A0NE0ECHCJMY",
+      "analog_id": "01KTSCSS5S9H4FQHVSF63025PV",
+      "failure_type": "score_below_threshold",
+      "score": 0.5277777777777777,
+      "confidence": 0.5277777777777777,
+      "missing_fields": [
+        "is_inverter",
+        "area_m2",
+        "color_inner_body",
+        "has_wifi_module",
+        "has_wifi_app_control",
+        "energy_class"
+      ]
+    },
+    {
+      "query_id": "01KTRYF6QQ3RC9A0NE0ECHCJMY",
+      "analog_id": "01KTSCSK49T8BETJAC6FNGWTC2",
+      "failure_type": "score_below_threshold",
+      "score": 0.5277777777777777,
+      "confidence": 0.5277777777777777,
+      "missing_fields": [
+        "is_inverter",
+        "area_m2",
+        "color_inner_body",
+        "has_wifi_module",
+        "has_wifi_app_control",
+        "energy_class"
+      ]
+    },
+    {
+      "query_id": "01KTRYF6QQ3RC9A0NE0ECHCJMY",
+      "analog_id": "01KZ6FSY7SEAAP8TRSJV6G5WR8",
+      "failure_type": "score_below_threshold",
+      "score": 0.5277777777777777,
+      "confidence": 0.5277777777777777,
+      "missing_fields": [
+        "is_inverter",
+        "area_m2",
+        "color_inner_body",
+        "has_wifi_module",
+        "has_wifi_app_control",
+        "energy_class"
+      ]
+    },
+    {
+      "query_id": "01KTRYF6QQ3RC9A0NE0ECHCJMY",
+      "analog_id": "01KTSCST0YMM60N1DYXN23KWF0",
+      "failure_type": "score_below_threshold",
+      "score": 0.5277777777777777,
+      "confidence": 0.5277777777777777,
+      "missing_fields": [
+        "is_inverter",
+        "area_m2",
+        "color_inner_body",
+        "has_wifi_module",
+        "has_wifi_app_control",
+        "energy_class"
+      ]
+    },
+    {
+      "query_id": "01KTRYF6QQ3RC9A0NE0ECHCJMY",
+      "analog_id": "01KTSCSKZ7KTW6AVNTZT51JA5S",
+      "failure_type": "score_below_threshold",
+      "score": 0.5277777777777777,
+      "confidence": 0.5277777777777777,
+      "missing_fields": [
+        "is_inverter",
+        "area_m2",
+        "color_inner_body",
+        "has_wifi_module",
+        "has_wifi_app_control",
+        "energy_class"
+      ]
+    },
+    {
+      "query_id": "01KTRYF6QQ3RC9A0NE0ECHCJMY",
+      "analog_id": "01KTSCSM9PQXVAPZKE9DZNWZZ1",
+      "failure_type": "score_below_threshold",
+      "score": 0.5277777777777777,
+      "confidence": 0.5277777777777777,
+      "missing_fields": [
+        "is_inverter",
+        "area_m2",
+        "color_inner_body",
+        "has_wifi_module",
+        "has_wifi_app_control",
+        "energy_class"
+      ]
+    },
+    {
+      "query_id": "01KTRYF6QQ3RC9A0NE0ECHCJMY",
+      "analog_id": "01KTSCSF8E4N18TBXZ8K5EHQSA",
+      "failure_type": "score_below_threshold",
+      "score": 0.5277777777777777,
+      "confidence": 0.5277777777777777,
+      "missing_fields": [
+        "is_inverter",
+        "area_m2",
+        "color_inner_body",
+        "has_wifi_module",
+        "has_wifi_app_control",
+        "energy_class"
+      ]
+    },
+    {
+      "query_id": "01KTRXDM580CXNWNHQHWE3BH4P",
+      "analog_id": "01KTSCSQBRZKRZP5RCNAF3F69T",
+      "failure_type": "score_below_threshold",
+      "score": 0.5277777777777777,
+      "confidence": 0.5277777777777777,
+      "missing_fields": [
+        "is_inverter",
+        "area_m2",
+        "color_inner_body",
+        "has_wifi_module",
+        "has_wifi_app_control",
+        "energy_class"
+      ]
+    },
+    {
+      "query_id": "01KTRXDM580CXNWNHQHWE3BH4P",
+      "analog_id": "01KTSCSR50JJ5F8ZTZDG3E3T4M",
+      "failure_type": "score_below_threshold",
+      "score": 0.5277777777777777,
+      "confidence": 0.5277777777777777,
+      "missing_fields": [
+        "is_inverter",
+        "area_m2",
+        "color_inner_body",
+        "has_wifi_module",
+        "has_wifi_app_control",
+        "energy_class"
+      ]
+    }
+  ]
+}

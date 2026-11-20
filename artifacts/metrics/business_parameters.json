@@ -1,0 +1,123 @@
+{
+  "business_weights": {
+    "is_inverter": 0.1111111111111111,
+    "area_m2": 0.1111111111111111,
+    "cooling_power_kw": 0.1111111111111111,
+    "heating_power_kw": 0.1111111111111111,
+    "noise_indoor_db": 0.1111111111111111,
+    "min_operating_temp_c": 0.1111111111111111,
+    "color_inner_body": 0.1111111111111111,
+    "has_wifi_module": 0.027777777777777776,
+    "has_wifi_app_control": 0.027777777777777776,
+    "refrigerant": 0.08333333333333333,
+    "energy_class": 0.08333333333333333
+  },
+  "business_characteristics": [
+    {
+      "Name": "Инверторная технология",
+      "Field": "is_inverter",
+      "Kind": "bool",
+      "Importance": 3,
+      "TolerancePercent": null,
+      "Unit": "",
+      "ImportanceLabel": "Critical"
+    },
+    {
+      "Name": "Эффективен для помещ. площадью до",
+      "Field": "area_m2",
+      "Kind": "numeric_relative",
+      "Importance": 3,
+      "TolerancePercent": 15.0,
+      "Unit": "м²",
+      "ImportanceLabel": "Critical"
+    },
+    {
+      "Name": "Номинальная производительность охлаждения",
+      "Field": "cooling_power_kw",
+      "Kind": "numeric_relative",
+      "Importance": 3,
+      "TolerancePercent": 15.0,
+      "Unit": "кВт",
+      "ImportanceLabel": "Critical"
+    },
+    {
+      "Name": "Номинальная производительность обогрева",
+      "Field": "heating_power_kw",
+      "Kind": "numeric_relative",
+      "Importance": 3,
+      "TolerancePercent": 15.0,
+      "Unit": "кВт",
+      "ImportanceLabel": "Critical"
+    },
+    {
+      "Name": "Уровень шума внутр. блока",
+      "Field": "noise_indoor_db",
+      "Kind": "numeric_relative",
+      "Importance": 3,
+      "TolerancePercent": 40.0,
+      "Unit": "дБ(А)",
+      "ImportanceLabel": "Critical"
+    },
+    {
+      "Name": "Мин. рабочая температура воздуха для внешнего блока",
+      "Field": "min_operating_temp_c",
+      "Kind": "temp_relative",
+      "Importance": 3,
+      "TolerancePercent": 30.0,
+      "Unit": "°C",
+      "ImportanceLabel": "Critical"
+    },
+    {
+      "Name": "Цвет корпуса внутр. блока",
+      "Field": "color_inner_body",
+      "Kind": "category_exact",
+      "Importance": 3,
+      "TolerancePercent": null,
+      "Unit": "",
+      "ImportanceLabel": "Critical"
+    },
+    {
+      "Name": "Wi-Fi модуль",
+      "Field": "has_wifi_module",
+      "Kind": "bool",
+      "Importance": 1,
+      "TolerancePercent": null,
+      "Unit": "",
+      "ImportanceLabel": "Matter"
+    },
+    {
+      "Name": "Управление c мобильного приложения по Wi-Fi",
+      "Field": "has_wifi_app_control",
+      "Kind": "bool",
+      "Importance": 1,
+      "TolerancePercent": null,
+      "Unit": "",
+      "ImportanceLabel": "Matter"
+    },
+    {
+      "Name": "Хладагент",
+      "Field": "refrigerant",
+      "Kind": "category_exact",
+      "Importance": 2,
+      "TolerancePercent": null,
+      "Unit": "",
+      "ImportanceLabel": "Important"
+    },
+    {
+      "Name": "Класс энергоэффективности",
+      "Field": "energy_class",
+      "Kind": "energy_class",
+      "Importance": 2,
+      "TolerancePercent": null,
+      "Unit": "",
+      "ImportanceLabel": "Important"
+    }
+  ],
+  "units": {
+    "area_m2": "м²",
+    "cooling_power_kw": "кВт",
+    "heating_power_kw": "кВт",
+    "noise_indoor_db": "дБ(А)",
+    "min_operating_temp_c": "°C"
+  }
+}
